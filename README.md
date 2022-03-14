@@ -32,3 +32,9 @@ test.use({ storageState: 'auth.json' });
 ```
 npx playwright test tests/azuredevops.spec.ts
 ```
+
+CSV file will be generated in the following path:
+
+```
+data/projects.csv
+```
